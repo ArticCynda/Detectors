@@ -1,0 +1,13 @@
+# Target labels
+ assimp_external
+# Source files and their labels
+/media/anon/Data/uob/iac/scintillators/cadmesh/build/CMakeFiles/assimp_external
+/media/anon/Data/uob/iac/scintillators/cadmesh/build/CMakeFiles/assimp_external.rule
+/media/anon/Data/uob/iac/scintillators/cadmesh/build/CMakeFiles/assimp_external-complete.rule
+/media/anon/Data/uob/iac/scintillators/cadmesh/build/assimp_external-prefix/src/assimp_external-stamp/assimp_external-install.rule
+/media/anon/Data/uob/iac/scintillators/cadmesh/build/assimp_external-prefix/src/assimp_external-stamp/assimp_external-mkdir.rule
+/media/anon/Data/uob/iac/scintillators/cadmesh/build/assimp_external-prefix/src/assimp_external-stamp/assimp_external-download.rule
+/media/anon/Data/uob/iac/scintillators/cadmesh/build/assimp_external-prefix/src/assimp_external-stamp/assimp_external-update.rule
+/media/anon/Data/uob/iac/scintillators/cadmesh/build/assimp_external-prefix/src/assimp_external-stamp/assimp_external-patch.rule
+/media/anon/Data/uob/iac/scintillators/cadmesh/build/assimp_external-prefix/src/assimp_external-stamp/assimp_external-configure.rule
+/media/anon/Data/uob/iac/scintillators/cadmesh/build/assimp_external-prefix/src/assimp_external-stamp/assimp_external-build.rule

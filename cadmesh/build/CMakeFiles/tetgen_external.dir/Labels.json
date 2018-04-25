@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/media/anon/Data/uob/iac/scintillators/cadmesh/build/CMakeFiles/tetgen_external"
+		},
+		{
+			"file" : "/media/anon/Data/uob/iac/scintillators/cadmesh/build/CMakeFiles/tetgen_external.rule"
+		},
+		{
+			"file" : "/media/anon/Data/uob/iac/scintillators/cadmesh/build/CMakeFiles/tetgen_external-complete.rule"
+		},
+		{
+			"file" : "/media/anon/Data/uob/iac/scintillators/cadmesh/build/tetgen_external-prefix/src/tetgen_external-stamp/tetgen_external-install.rule"
+		},
+		{
+			"file" : "/media/anon/Data/uob/iac/scintillators/cadmesh/build/tetgen_external-prefix/src/tetgen_external-stamp/tetgen_external-mkdir.rule"
+		},
+		{
+			"file" : "/media/anon/Data/uob/iac/scintillators/cadmesh/build/tetgen_external-prefix/src/tetgen_external-stamp/tetgen_external-download.rule"
+		},
+		{
+			"file" : "/media/anon/Data/uob/iac/scintillators/cadmesh/build/tetgen_external-prefix/src/tetgen_external-stamp/tetgen_external-update.rule"
+		},
+		{
+			"file" : "/media/anon/Data/uob/iac/scintillators/cadmesh/build/tetgen_external-prefix/src/tetgen_external-stamp/tetgen_external-patch.rule"
+		},
+		{
+			"file" : "/media/anon/Data/uob/iac/scintillators/cadmesh/build/tetgen_external-prefix/src/tetgen_external-stamp/tetgen_external-configure.rule"
+		},
+		{
+			"file" : "/media/anon/Data/uob/iac/scintillators/cadmesh/build/tetgen_external-prefix/src/tetgen_external-stamp/tetgen_external-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tetgen_external"
+		],
+		"name" : "tetgen_external"
+	}
+}
