@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anon/Desktop/B1
+CMAKE_SOURCE_DIR = /media/anon/Data/uob/iac/scintillators/geant4/model/B1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anon/Desktop/B1-build
+CMAKE_BINARY_DIR = /media/anon/Data/uob/iac/scintillators/geant4/model/B1-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/exampleB1.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/exampleB1.dir/progress.make
 include CMakeFiles/exampleB1.dir/flags.make
 
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: CMakeFiles/exampleB1.dir/flags.make
-CMakeFiles/exampleB1.dir/exampleB1.cc.o: /home/anon/Desktop/B1/exampleB1.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anon/Desktop/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampleB1.dir/exampleB1.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/exampleB1.cc.o -c /home/anon/Desktop/B1/exampleB1.cc
+CMakeFiles/exampleB1.dir/exampleB1.cc.o: /media/anon/Data/uob/iac/scintillators/geant4/model/B1/exampleB1.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anon/Data/uob/iac/scintillators/geant4/model/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampleB1.dir/exampleB1.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/exampleB1.cc.o -c /media/anon/Data/uob/iac/scintillators/geant4/model/B1/exampleB1.cc
 
 CMakeFiles/exampleB1.dir/exampleB1.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/exampleB1.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anon/Desktop/B1/exampleB1.cc > CMakeFiles/exampleB1.dir/exampleB1.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anon/Data/uob/iac/scintillators/geant4/model/B1/exampleB1.cc > CMakeFiles/exampleB1.dir/exampleB1.cc.i
 
 CMakeFiles/exampleB1.dir/exampleB1.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/exampleB1.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anon/Desktop/B1/exampleB1.cc -o CMakeFiles/exampleB1.dir/exampleB1.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anon/Data/uob/iac/scintillators/geant4/model/B1/exampleB1.cc -o CMakeFiles/exampleB1.dir/exampleB1.cc.s
 
 CMakeFiles/exampleB1.dir/exampleB1.cc.o.requires:
 
@@ -81,114 +81,18 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o.provides: CMakeFiles/exampleB1.dir/examp
 CMakeFiles/exampleB1.dir/exampleB1.cc.o.provides.build: CMakeFiles/exampleB1.dir/exampleB1.cc.o
 
 
-CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
-CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /home/anon/Desktop/B1/src/B1SteppingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anon/Desktop/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o -c /home/anon/Desktop/B1/src/B1SteppingAction.cc
-
-CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anon/Desktop/B1/src/B1SteppingAction.cc > CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.i
-
-CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anon/Desktop/B1/src/B1SteppingAction.cc -o CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.s
-
-CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.requires:
-
-.PHONY : CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.requires
-
-CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.provides: CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.requires
-	$(MAKE) -f CMakeFiles/exampleB1.dir/build.make CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.provides.build
-.PHONY : CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.provides
-
-CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.provides.build: CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o
-
-
-CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
-CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /home/anon/Desktop/B1/src/B1RunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anon/Desktop/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o -c /home/anon/Desktop/B1/src/B1RunAction.cc
-
-CMakeFiles/exampleB1.dir/src/B1RunAction.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1RunAction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anon/Desktop/B1/src/B1RunAction.cc > CMakeFiles/exampleB1.dir/src/B1RunAction.cc.i
-
-CMakeFiles/exampleB1.dir/src/B1RunAction.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1RunAction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anon/Desktop/B1/src/B1RunAction.cc -o CMakeFiles/exampleB1.dir/src/B1RunAction.cc.s
-
-CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.requires:
-
-.PHONY : CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.requires
-
-CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.provides: CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.requires
-	$(MAKE) -f CMakeFiles/exampleB1.dir/build.make CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.provides.build
-.PHONY : CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.provides
-
-CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.provides.build: CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o
-
-
-CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o: CMakeFiles/exampleB1.dir/flags.make
-CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o: /home/anon/Desktop/B1/src/G4Material-CsI-Na.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anon/Desktop/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o -c /home/anon/Desktop/B1/src/G4Material-CsI-Na.cc
-
-CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anon/Desktop/B1/src/G4Material-CsI-Na.cc > CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.i
-
-CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anon/Desktop/B1/src/G4Material-CsI-Na.cc -o CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.s
-
-CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.requires:
-
-.PHONY : CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.requires
-
-CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.provides: CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.requires
-	$(MAKE) -f CMakeFiles/exampleB1.dir/build.make CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.provides.build
-.PHONY : CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.provides
-
-CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.provides.build: CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o
-
-
-CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o: CMakeFiles/exampleB1.dir/flags.make
-CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o: /home/anon/Desktop/B1/src/B1ActionInitialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anon/Desktop/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o -c /home/anon/Desktop/B1/src/B1ActionInitialization.cc
-
-CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anon/Desktop/B1/src/B1ActionInitialization.cc > CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.i
-
-CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anon/Desktop/B1/src/B1ActionInitialization.cc -o CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.s
-
-CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.requires:
-
-.PHONY : CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.requires
-
-CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.provides: CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.requires
-	$(MAKE) -f CMakeFiles/exampleB1.dir/build.make CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.provides.build
-.PHONY : CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.provides
-
-CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.provides.build: CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o
-
-
 CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
-CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o: /home/anon/Desktop/B1/src/B1EventAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anon/Desktop/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o -c /home/anon/Desktop/B1/src/B1EventAction.cc
+CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o: /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anon/Data/uob/iac/scintillators/geant4/model/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o -c /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1EventAction.cc
 
 CMakeFiles/exampleB1.dir/src/B1EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1EventAction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anon/Desktop/B1/src/B1EventAction.cc > CMakeFiles/exampleB1.dir/src/B1EventAction.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1EventAction.cc > CMakeFiles/exampleB1.dir/src/B1EventAction.cc.i
 
 CMakeFiles/exampleB1.dir/src/B1EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1EventAction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anon/Desktop/B1/src/B1EventAction.cc -o CMakeFiles/exampleB1.dir/src/B1EventAction.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1EventAction.cc -o CMakeFiles/exampleB1.dir/src/B1EventAction.cc.s
 
 CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o.requires:
 
@@ -201,42 +105,18 @@ CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o.provides: CMakeFiles/exampleB1.d
 CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o.provides.build: CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o
 
 
-CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
-CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o: /home/anon/Desktop/B1/src/B1PrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anon/Desktop/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o -c /home/anon/Desktop/B1/src/B1PrimaryGeneratorAction.cc
-
-CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anon/Desktop/B1/src/B1PrimaryGeneratorAction.cc > CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.i
-
-CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anon/Desktop/B1/src/B1PrimaryGeneratorAction.cc -o CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.s
-
-CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.requires:
-
-.PHONY : CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.requires
-
-CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.provides: CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.requires
-	$(MAKE) -f CMakeFiles/exampleB1.dir/build.make CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.provides.build
-.PHONY : CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.provides
-
-CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.provides.build: CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o
-
-
 CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o: CMakeFiles/exampleB1.dir/flags.make
-CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o: /home/anon/Desktop/B1/src/B1DetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anon/Desktop/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o -c /home/anon/Desktop/B1/src/B1DetectorConstruction.cc
+CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o: /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anon/Data/uob/iac/scintillators/geant4/model/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o -c /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1DetectorConstruction.cc
 
 CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anon/Desktop/B1/src/B1DetectorConstruction.cc > CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1DetectorConstruction.cc > CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.i
 
 CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anon/Desktop/B1/src/B1DetectorConstruction.cc -o CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1DetectorConstruction.cc -o CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.s
 
 CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o.requires:
 
@@ -249,28 +129,148 @@ CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o.provides: CMakeFiles/ex
 CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o.provides.build: CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o
 
 
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o: /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1SteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anon/Data/uob/iac/scintillators/geant4/model/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o -c /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1SteppingAction.cc
+
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1SteppingAction.cc > CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.i
+
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1SteppingAction.cc -o CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.s
+
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.requires:
+
+.PHONY : CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.requires
+
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.provides: CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.requires
+	$(MAKE) -f CMakeFiles/exampleB1.dir/build.make CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.provides.build
+.PHONY : CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.provides
+
+CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.provides.build: CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o
+
+
+CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o: CMakeFiles/exampleB1.dir/flags.make
+CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o: /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/G4Material-CsI-Na.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anon/Data/uob/iac/scintillators/geant4/model/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o -c /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/G4Material-CsI-Na.cc
+
+CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/G4Material-CsI-Na.cc > CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.i
+
+CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/G4Material-CsI-Na.cc -o CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.s
+
+CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.requires:
+
+.PHONY : CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.requires
+
+CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.provides: CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.requires
+	$(MAKE) -f CMakeFiles/exampleB1.dir/build.make CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.provides.build
+.PHONY : CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.provides
+
+CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.provides.build: CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o
+
+
+CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
+CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o: /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anon/Data/uob/iac/scintillators/geant4/model/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o -c /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1PrimaryGeneratorAction.cc
+
+CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1PrimaryGeneratorAction.cc > CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.i
+
+CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1PrimaryGeneratorAction.cc -o CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.s
+
+CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.requires:
+
+.PHONY : CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.requires
+
+CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.provides: CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.requires
+	$(MAKE) -f CMakeFiles/exampleB1.dir/build.make CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.provides.build
+.PHONY : CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.provides
+
+CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.provides.build: CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o
+
+
+CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: CMakeFiles/exampleB1.dir/flags.make
+CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o: /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anon/Data/uob/iac/scintillators/geant4/model/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o -c /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1RunAction.cc
+
+CMakeFiles/exampleB1.dir/src/B1RunAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1RunAction.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1RunAction.cc > CMakeFiles/exampleB1.dir/src/B1RunAction.cc.i
+
+CMakeFiles/exampleB1.dir/src/B1RunAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1RunAction.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1RunAction.cc -o CMakeFiles/exampleB1.dir/src/B1RunAction.cc.s
+
+CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.requires:
+
+.PHONY : CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.requires
+
+CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.provides: CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.requires
+	$(MAKE) -f CMakeFiles/exampleB1.dir/build.make CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.provides.build
+.PHONY : CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.provides
+
+CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.provides.build: CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o
+
+
+CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o: CMakeFiles/exampleB1.dir/flags.make
+CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o: /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1ActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/anon/Data/uob/iac/scintillators/geant4/model/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o -c /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1ActionInitialization.cc
+
+CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1ActionInitialization.cc > CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.i
+
+CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/anon/Data/uob/iac/scintillators/geant4/model/B1/src/B1ActionInitialization.cc -o CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.s
+
+CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.requires:
+
+.PHONY : CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.requires
+
+CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.provides: CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.requires
+	$(MAKE) -f CMakeFiles/exampleB1.dir/build.make CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.provides.build
+.PHONY : CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.provides
+
+CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.provides.build: CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o
+
+
 # Object files for target exampleB1
 exampleB1_OBJECTS = \
 "CMakeFiles/exampleB1.dir/exampleB1.cc.o" \
-"CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o" \
-"CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o" \
-"CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o" \
-"CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o" \
 "CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o" \
+"CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o" \
+"CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o" \
+"CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o" \
 "CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o" \
-"CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o"
+"CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o" \
+"CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o"
 
 # External object files for target exampleB1
 exampleB1_EXTERNAL_OBJECTS =
 
 exampleB1: CMakeFiles/exampleB1.dir/exampleB1.cc.o
-exampleB1: CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o
-exampleB1: CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o
-exampleB1: CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o
-exampleB1: CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o
 exampleB1: CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o
-exampleB1: CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o
 exampleB1: CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o
+exampleB1: CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o
+exampleB1: CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o
+exampleB1: CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o
+exampleB1: CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o
+exampleB1: CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o
 exampleB1: CMakeFiles/exampleB1.dir/build.make
 exampleB1: /media/anon/Data/apps/geant4.10.04-install/lib/libG4Tree.so
 exampleB1: /media/anon/Data/apps/geant4.10.04-install/lib/libG4GMocren.so
@@ -311,7 +311,7 @@ exampleB1: /media/anon/Data/apps/geant4.10.04-install/lib/libG4intercoms.so
 exampleB1: /media/anon/Data/apps/geant4.10.04-install/lib/libG4global.so
 exampleB1: /media/anon/Data/apps/geant4.10.04-install/lib/libG4clhep.so
 exampleB1: CMakeFiles/exampleB1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anon/Desktop/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable exampleB1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/anon/Data/uob/iac/scintillators/geant4/model/B1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable exampleB1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exampleB1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -320,13 +320,13 @@ CMakeFiles/exampleB1.dir/build: exampleB1
 .PHONY : CMakeFiles/exampleB1.dir/build
 
 CMakeFiles/exampleB1.dir/requires: CMakeFiles/exampleB1.dir/exampleB1.cc.o.requires
-CMakeFiles/exampleB1.dir/requires: CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.requires
-CMakeFiles/exampleB1.dir/requires: CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.requires
-CMakeFiles/exampleB1.dir/requires: CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.requires
-CMakeFiles/exampleB1.dir/requires: CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.requires
 CMakeFiles/exampleB1.dir/requires: CMakeFiles/exampleB1.dir/src/B1EventAction.cc.o.requires
-CMakeFiles/exampleB1.dir/requires: CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.requires
 CMakeFiles/exampleB1.dir/requires: CMakeFiles/exampleB1.dir/src/B1DetectorConstruction.cc.o.requires
+CMakeFiles/exampleB1.dir/requires: CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o.requires
+CMakeFiles/exampleB1.dir/requires: CMakeFiles/exampleB1.dir/src/G4Material-CsI-Na.cc.o.requires
+CMakeFiles/exampleB1.dir/requires: CMakeFiles/exampleB1.dir/src/B1PrimaryGeneratorAction.cc.o.requires
+CMakeFiles/exampleB1.dir/requires: CMakeFiles/exampleB1.dir/src/B1RunAction.cc.o.requires
+CMakeFiles/exampleB1.dir/requires: CMakeFiles/exampleB1.dir/src/B1ActionInitialization.cc.o.requires
 
 .PHONY : CMakeFiles/exampleB1.dir/requires
 
@@ -335,6 +335,6 @@ CMakeFiles/exampleB1.dir/clean:
 .PHONY : CMakeFiles/exampleB1.dir/clean
 
 CMakeFiles/exampleB1.dir/depend:
-	cd /home/anon/Desktop/B1-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anon/Desktop/B1 /home/anon/Desktop/B1 /home/anon/Desktop/B1-build /home/anon/Desktop/B1-build /home/anon/Desktop/B1-build/CMakeFiles/exampleB1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/anon/Data/uob/iac/scintillators/geant4/model/B1-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/anon/Data/uob/iac/scintillators/geant4/model/B1 /media/anon/Data/uob/iac/scintillators/geant4/model/B1 /media/anon/Data/uob/iac/scintillators/geant4/model/B1-build /media/anon/Data/uob/iac/scintillators/geant4/model/B1-build /media/anon/Data/uob/iac/scintillators/geant4/model/B1-build/CMakeFiles/exampleB1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/exampleB1.dir/depend
 

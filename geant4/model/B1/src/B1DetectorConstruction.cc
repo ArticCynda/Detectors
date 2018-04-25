@@ -29,6 +29,7 @@
 /// \brief Implementation of the B1DetectorConstruction class
 
 #include "B1DetectorConstruction.hh"
+#include <G4Tubs.hh>
 
 #include "G4RunManager.hh"
 #include "G4NistManager.hh"
@@ -121,7 +122,7 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
 
 
   // define the crystal
-  G4Material* CsINa = getCsI_Na();
+  G4Material* CsI_Na = getCsI_Na();
   G4double innerRadius = 0.*mm;
   G4double outerRadius = 3.*mm;
   G4double hz = 25.*mm;
@@ -142,6 +143,16 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
     new G4LogicalVolume(CsICrystal,
                         CsI_Na,
                         "CsI(Na) Crystal");
+
+  new G4PVPlacement(0,
+                    G4ThreeVector(0, 0.*cm, 0*cm),
+                    crystalShape,
+                    "crystal",
+                    logicEnv,
+                    false,
+                    0,
+                    checkOverlaps);
+
   //
   // Shape 1
   //

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anon/Desktop/B1
+CMAKE_SOURCE_DIR = /media/anon/Data/uob/iac/scintillators/geant4/model/B1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anon/Desktop/B1-build
+CMAKE_BINARY_DIR = /media/anon/Data/uob/iac/scintillators/geant4/model/B1-build
 
 # Utility rule file for B1.
 
@@ -71,6 +71,6 @@ CMakeFiles/B1.dir/clean:
 .PHONY : CMakeFiles/B1.dir/clean
 
 CMakeFiles/B1.dir/depend:
-	cd /home/anon/Desktop/B1-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anon/Desktop/B1 /home/anon/Desktop/B1 /home/anon/Desktop/B1-build /home/anon/Desktop/B1-build /home/anon/Desktop/B1-build/CMakeFiles/B1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/anon/Data/uob/iac/scintillators/geant4/model/B1-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/anon/Data/uob/iac/scintillators/geant4/model/B1 /media/anon/Data/uob/iac/scintillators/geant4/model/B1 /media/anon/Data/uob/iac/scintillators/geant4/model/B1-build /media/anon/Data/uob/iac/scintillators/geant4/model/B1-build /media/anon/Data/uob/iac/scintillators/geant4/model/B1-build/CMakeFiles/B1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/B1.dir/depend
 
